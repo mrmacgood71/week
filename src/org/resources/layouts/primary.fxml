@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="250.0" prefWidth="500.0" styleClass="login-pane" stylesheets="@../css/login-style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.java.controllers.PrimaryController">
+   <children>
+      <PasswordField fx:id="password" layoutX="220.0" layoutY="138.0" promptText="Введите пароль" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="20.0" />
+      <TextField fx:id="login" layoutX="220.0" layoutY="56.0" promptText="Введите логин" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="20.0" />
+      <Label layoutX="200.0" layoutY="28.0" text="Логин:" AnchorPane.leftAnchor="200.0" />
+      <Label layoutX="200.0" layoutY="111.0" text="Пароль:" AnchorPane.leftAnchor="200.0" />
+      <Label alignment="CENTER" layoutX="11.0" layoutY="6.0" prefHeight="43.0" prefWidth="176.0" styleClass="label-pane" text="Добро пожаловать" />
+      <Label alignment="CENTER" layoutX="11.0" layoutY="49.0" prefHeight="40.0" prefWidth="176.0" styleClass="label-pane" text="Нева Сети" />
+      <Button layoutX="350.0" layoutY="189.0" mnemonicParsing="false" onAction="#singIn" prefHeight="43.0" prefWidth="109.0" text="Войти" />
+      <ImageView fitHeight="128.0" fitWidth="176.0" layoutX="35.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8-network-64.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

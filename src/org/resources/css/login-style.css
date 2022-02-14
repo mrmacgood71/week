@@ -1,0 +1,43 @@
+* {
+    -fx-font-family: "Lato";
+    -fx-font-size: 14pt;
+}
+
+.label-pane {
+    -fx-background-color: #00BFFF;
+    -fx-text-fill: white;
+}
+.welcome-label {
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-cursor: hand;
+    -fx-background-color: white;
+    -fx-border-color: #00BFFF;
+    -fx-border-width: 2px;
+    -fx-text-fill: #00BFFF;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+}
+
+.button:hover {
+-fx-background-color: #00BFFF;
+-fx-text-fill: white;
+}
+
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #00BFFF;
+    -fx-border-width: 2px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+
+}
+
+.login-pane {
+    -fx-background-color: white;
+
+}
+
+

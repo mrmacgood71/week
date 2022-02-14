@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="LoginTomorrow3">
+    <output-path>$PROJECT_DIR$/out/artifacts/LoginTomorrow3</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="org.java.App" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="windowsIcon" value="$PROJECT_DIR$/src/org/resources/images/icons8-network-64.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="nativeBundle" value="exe" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="LoginTomorrow.jar">
+        <element id="module-output" name="LoginTomorrow" />
+        <element id="library" level="project" name="mysql-connector-java-8.0.26" />
+      </element>
+    </root>
+  </artifact>
+</component>
